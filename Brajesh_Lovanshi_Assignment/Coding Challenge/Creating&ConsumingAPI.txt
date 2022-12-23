@@ -1,0 +1,18 @@
+3) Question: what are the key things you would consider when creating/consuming an API to ensure that it is secure and reliable?
+
+If we want to create an API so we need to take care of various things:-
+
+1. make sure we are trying to make our API easy to access,
+2. We need to insure that our API request name is relevant to their  operation if want to add a customer so the post method name should be "/addCustomer", a proper naming convention;
+3. We need to handle proper exceptions if any kind of exception might occur it could be user-defined,
+4. To test our API we need to write testing logic.
+5. Make sure our API is secure Authenticate users and give them permission to access services.
+6. We need to handle all the exceptions and if required we need to create our own custom exceptions as well.
+7. We need to write proper documentation or a user guide so anyone can understand and use our API.
+
+If we want to consume any API so we need to follow some things:- 
+
+1. Firstly we need to go throw API documentation to understand the API,
+2. We need to check whether the web API uses Transport Layer Security or not if API is used TLS then we can say that this api is secure and we can use it.
+2. Insure that the API has security features and the API implements Authentication & authorization features.
+

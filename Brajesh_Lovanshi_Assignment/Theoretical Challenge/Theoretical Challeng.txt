@@ -1,0 +1,13 @@
+Theoretical Challenge:
+
+I want a program that will take the CSV input above and produce CSV output with the results. If it is a value, then return a value. If it is a formula then calculate the formula and return the value of that formula.
+
+1. How will you tackle the challenge above?
+-> If we write a java program so we need to take that data using a scanner or BufferedReader and Storing these data into respective variables and insure that our data will come stored in the same variable if any integer value we take then we use int or String for any string value.
+also, we can create various methods to perform some logical operations.
+ 
+2. What type of errors you would you check for?
+-> There might be a chance we can face some exceptions so we need to handle them using try/catch or using throws.If required we need to create our custom exception also to maintain the normal flow.
+
+3. How might a user break your code?
+-> There might be a chance user pass some mismatched value to break our code for example user might pass a string value instead of a numeric value in place of a numeric value and some special character as well but we need to handle all those things. We need to write logic(declared method and field) or if there is some formula so we need to calculate them and also represent all the data into the well-structured manner.
